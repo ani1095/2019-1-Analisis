@@ -22,3 +22,24 @@ x1 = --------------------------
 x1 = --------------------------
 			2 * a
 
+Escenarios de prueba:
+1. para a=0
+asignar a en 0
+
+2. para discriminante negativo:
+a=1
+b=-2
+c=4
+discriminante = -12
+
+3. para discriminante cero:
+a=1
+b=2
+c=1
+discriminante = 0
+
+4. para discriminante positivo:
+a=-2
+b=1
+c=3
+discriminante = 25
