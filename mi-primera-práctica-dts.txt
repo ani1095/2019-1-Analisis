@@ -1,0 +1,45 @@
+haga un paquete que calcule las dos posibles soluciones de una ecuación cuadrática de la forma ax^2 + bx + c = 0
+restricciones:
+1. debe contener un script task que 
+- reciba tres valores de input (a, b, c)
+- devuelva tres valores de output (x1, x2, discriminante)
+2. el discriminante se calcula con la fórmula b^2 - 4 * a * c
+3. si el discriminante es menor que cero, la ecuación no puede resolverse, por lo que los valores de las variables x1 y x2 son null;
+4. si el discriminante es cero, las variables x1 y x2 tienen el mismo valor y este valor es 
+- b + sqrt (discriminante)
+-------------------------
+      2 * a
+
+5. si el discriminante es mayor que cero, las variables x1 y x2 tienen los siguientes valores:
+
+	  - b + sqrt (discriminante)
+x1 = --------------------------
+			2 * a
+
+
+
+	  - b - sqrt (discriminante)
+x1 = --------------------------
+			2 * a
+
+Escenarios de prueba:
+1. para a=0
+asignar a en 0
+
+2. para discriminante negativo:
+a=1
+b=-2
+c=4
+discriminante = -12
+
+3. para discriminante cero:
+a=1
+b=2
+c=1
+discriminante = 0
+
+4. para discriminante positivo:
+a=-2
+b=1
+c=3
+discriminante = 25
