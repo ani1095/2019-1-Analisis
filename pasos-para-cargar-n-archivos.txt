@@ -1,0 +1,8 @@
+generar archivos .txt con base en salesOrderheader
+generar tabla con las características
+generar registros en una tabla con las características de los archivos a procesar
+hacer el paquete que cargue los archivos
+actualizar la tabla de características
+
+Haga un paquete que cargue los registros de la tabla SalesOrderDetail
+Debe seleccionar una columna del tipo int, otra Money y otra int
