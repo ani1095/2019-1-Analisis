@@ -1,0 +1,6 @@
+fuzzy logic (fuzzy lookup - fuzzy grouping)
+seguridad en cubos
+carga de otras bd (mysql, oracle, postgres)
+carga de bd nosql (hadoop, mongo, dynamo (aws) , cosmos db)
+carga de registros por consumo de datos desde web services (wcf)
+lectura de xml (sql - xml source)
